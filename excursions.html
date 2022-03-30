@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RandoAddict-Excursions</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css>
+	<link rel="stylesheet" type="text/css" href="RandoAddictStyle.css"/>
+	<script src=https://code.jquery.com/jquery-3.3.1.slim.min.js></script>
+	<script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js></script>
+	<script src=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js></script>
+</head>
+<body>
+
+	<!-- HEADBAND : NAVIGATION-->
+	<!-- Utilisation d'un bandeau pour que l'utilisateur puisse se diriger rapidement là où il souhaite sur le site -->
+	<div class="container-fluid" id="headband">
+		<div class="row border border-dark bg-success">
+			<div class="col-lg-2 col-md-1 bg-success p-5">
+				<p id="title_RandoAddict"> RandoAddict</p>
+			</div>
+			<div class="col bg-success p-4">
+				<img src="img/LogoRA.png" loading="lazy" alt="logoRA">
+			</div>
+			<div class="col-lg-8 col-md-6 col-sm-4">
+				<div class="row justify-content-around bg-success p-5">
+					<div class="col">
+						<a href="#nos_excursions" class="btn btn-outline-dark btn-lg btn-block">Nos Excursions</a> 
+					</div>
+					<div class="col">
+						<a href="#nos_coupsdecoeur" class="btn  btn-outline-dark btn-lg btn-block">Nos Coups de Coeur</a> 
+					</div>
+					<div class="col">
+						<a href="#nos_guides" class="btn  btn-outline-dark btn-lg btn-block">Nos Guides</a> 
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br/>
+	
+
+	<h1 id="nos_excursions">Nos Excursions</h1>	<br/>
+
+
+
+
+	<div class="container">
+		<div class="row">
+			<div class="card mt-4" style="width: 70rem;">
+        <h1 class="card-title"><strong>Le tour du Mont-Blanc</strong></h1>
+        <div id="carouselExampleIndicators" class="carousel slide w-50  carousel_caption" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active"> 
+                <img class="d-block w-100" src="img/MonBlanc.jpg" loading="lazy" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                <h3>Le tour du mon blanc</h3>
+                <p>Randonnée parmi les plus belles du monde, le tour du Mont-Blanc se joue des frontières car il traverse les richesses françaises, suisses et italiennes d’un massif mythique..</p>
+              </div>
+            </div>
+            <div class="carousel-item"> 
+                <img class="d-block w-100" src="img/MonBlanc1.jpg" loading="lazy" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+            <div class="carousel-item"> 
+                <img class="d-block w-100" src="img/MonBlanc2.jpg" loading="lazy" alt="Third slide">
+                <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev"> 
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Précédent</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next"> 
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Suivant</span>
+          </a>
+      </div>
+  			<div class="card-body">
+    			<ul class="list-group list-group-flush">
+    				<li class="list-group-item">
+    					<div class="d-flex">
+    						<div class="p-2">
+    							<p class="difficulty "> difficulté: 5/10                </p>
+    						</div>
+                <div class="d-flex justify-content-around">
+                  <p class="location text-center mt-2">Localisation: Alpes Française</p>
+                </div>
+                <div class="ml-auto p-2">
+                  <p class="price align-end mt-2 ">Jour/prix: 7 jours 895€</p>
+                </div>
+    					</div>		
+    				</li>
+  				</ul>
+    			<br/> 
+          <button class="btn btn-dark btn-lg" type="button" data-toggle="collapse" data-target="#collapseExample01" aria-expanded="false" aria-controls="collapseExample">
+            Nos Programmations
+          </button>
+          <br/>
+          <div class="collapse mt-2" id="collapseExample01">
+            <div class="container">
+              <div class="row">
+                <div class="card card-body w-25 m-1" style="width: 14rem;">
+                  <ul class="list-group list-group-flush">
+                    <div class="row">
+                      <div class="col-2">
+                        <img src="img/LogoDebut.png" alt="debut">
+                      </div>
+                      <div class="col-2">
+                        <p class="price align-middle mt-2">10/05/2022</p>
+                      </div>
+                      <div class="col-2">
+                        <img src="img/LogoFin.png" alt="fin">
+                      </div>
+                      <div class="col-2">
+                        <p class="price align-middle mt-2">17/05/2022</p>
+                      </div>
+                      <div class="col-2">
+                        <img src="img/LogoGuide.png" alt="guide">
+                      </div>
+                      <div class="col-2">
+                        <p class="price align-middle mt-2">Sammy&Scooby</p>
+                      </div>
+                    </div>  
+                    <form class="align" action="reservation.html" method="get">
+                      <input type = "hidden" id = "ID_Program" name = "ID_Program" value = "1" />
+                      <input class="btn btn-success btn-lg" type="submit" value="Réserver">
+                    </form>
+                  </ul>
+                </div>
+              </div>
+              <div class="row">
+                <div class="card card-body w-25 m-1" style="width: 14rem;">
+                  <ul class="list-group list-group-flush">
+                    <div class="row">
+                      <div class="col-2">
+                        <img src="img/LogoDebut.png" alt="debut">
+                      </div>
+                      <div class="col-2">
+                        <p class="price align-middle mt-2">31/05/2022</p>
+                      </div>
+                      <div class="col-2">
+                        <img src="img/LogoFin.png" alt="fin">
+                      </div>
+                      <div class="col-2">
+                        <p class="price align-middle mt-2">04/06/2022</p>
+                      </div>
+                      <div class="col-2">
+                        <img src="img/LogoGuide.png" alt="guide">
+                      </div>
+                      <div class="col-2">
+                        <p class="price align-middle mt-2">Buck</p>
+                      </div>
+                    </div>  
+                    <form class="align" action="reservation.html" method="get">
+                      <input type = "hidden" id = "ID_Program" name = "ID_Program" value = "2" />
+                      <input class="btn btn-success btn-lg" type="submit" value="Réserver">
+                    </form>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+  			</div>
+			</div>	
+    </div>
+  </div>
+
+  <br/>
+
+ 
+  <br/>
+
+  <a href="index.html" class="btn btn-outline-dark btn-lg  d-flex justify-content-center" >RETOUR</a> 
+  <br/>
+	
+
+	<div class="card-fluid">
+    <div class="card-body bg-dark text-white">
+    <p>Nous contacter : randoaddict@gmail.com</p>
+      <p class="card-text">CONDITIONS DE VENTE ET ASSURANCES , MENTIONS LÉGALES ET CGU & CONFIDENTIALITÉ ET COOKIES © TOUS DROITS RÉSERVÉS RANDO ADDICT</p>
+    </div>
+</div>
+
+</body>
+</html>
